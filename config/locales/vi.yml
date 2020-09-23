@@ -8,3 +8,19 @@ vi:
   contact: "Liên hệ"
   login: "Đăng nhập"
   logo: "Ứng dụng đơn giản"
+
+  static_pages:
+    home:
+      title: "Welcome to the Sample App"
+      content: "This is the home page for the"
+      logo_home: "khóa học ruby on rail cơ bản"
+      button: "Sign up now!"
+
+    help:
+      content1: "Get help on the Ruby on Rails Tutorial at the"
+      content: "To get contact on this sample app, see the"
+      book: "book"
+
+    contact:
+      content: "Get contact on the Ruby on Rails Tutorial at the"
+      content1: "Rails Tutorial help page"
