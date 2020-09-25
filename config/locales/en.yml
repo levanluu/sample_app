@@ -9,6 +9,11 @@ en:
   login: "Log in"
   logo: "sample app"
   success: "Welcome to the sample"
+  userss: "Users"
+  account: "Account"
+  profile: "Profile"
+  settings: "Settings"
+  logout: "log out"
   static_pages:
     home:
       title: "Welcome to the Sample App"
@@ -39,3 +44,7 @@ en:
     messages: "The form contains"
     error: "error"
     user: "user"
+
+  session:
+      flash: "Invalid email/password combination"
+      pagelogin: "New user?"
