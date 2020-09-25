@@ -10,7 +10,7 @@ class SessionsController < ApplicationController
         remember user
         redirect_back_or user
       else
-        flash[:warning] = t("activation.messages2")
+        flash[:warning] = t("reset.account_not_activated")
         redirect_to root_url
       end
     else

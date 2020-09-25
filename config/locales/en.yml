@@ -52,18 +52,18 @@ en:
     title: "All users"
 
   update:
-    messages: "Profile update"
+    Profile_update: "Profile update"
 
   destroy:
-    messages: "User deleted"
-    messages1: "You sure?"
+    user_deleted: "User deleted"
+    you_sure: "You sure?"
     view: "delete"
 
-    messages3: "delete error"
+    delete_error: "delete error"
 
 
   login_in:
-    messages: "Please log in."
+    please_log_in: "Please log in."
 
   edit:
     title: "Edit user"
@@ -72,13 +72,27 @@ en:
     link: "change"
 
   email:
-    messages: "Please check your email to activate your account."
+    Please_check_your_email: "Please check your email to activate your account."
     messagerb: "Account activation"
     sendemail: " Welcome to the Sample App! Click on the link below to activate your"
     account: "account:"
     activate: "Activate"
 
-  activation:
-      messages: "Account activated!"
-      messages1: "Invalid activation link"
-      messages2: "Account not activated. Check your email for the activation link."
+  reset:
+    email_sent: "Email sent with password reset instructions"
+    email_address: "Email address not found"
+    messages3: "can't be empty"
+    password_has_been_reset: "Password has been reset."
+    account_not_activated: "Account not activated. Check your email for the activation link."
+    account_activated: "Account activated!"
+    invalid_activation: "Invalid activation link"
+    password_reset: "Password reset"
+    forgot_password: "Forgot password"
+    submit: "Submit"
+    password_reset_expired : "Password reset has expired."
+    title: "Reset password"
+    updatepassword: "Update password"
+    home_has_been_reset: "return page Home"
+    To_reset_your: "To reset your password click the link below:"
+    his_link_will: "This link will expire in two hours."
+    content: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."

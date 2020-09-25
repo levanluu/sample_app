@@ -52,17 +52,17 @@ vi:
     title: "Tất cả người sử dụng"
 
   update:
-      messages: "Cập nhật hồ sơ"
+      Profile_update: "Cập nhật hồ sơ"
 
   destroy:
-      messages: "Người dùng đã bị xóa"
-      messages1: "Bạn chắc chắn?"
+      user_deleted: "Người dùng đã bị xóa"
+      you_sure: "Bạn chắc chắn?"
       view: "Xóa"
-      messages3: "Xoa bi loi"
+      delete_error: "Xoa bi loi"
 
 
   login_in:
-    messages: "Xin vui lòng đăng nhập."
+    please_log_in: "Xin vui lòng đăng nhập."
 
   edit:
     title: "Sửa người dùng"
@@ -71,13 +71,27 @@ vi:
     link: "Thay đổi"
 
   email:
-    messages: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    Please_check_your_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     messagesrb: "Kích hoạt tài khoản"
     sendemail: " Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt"
     account: "tài khoản:"
     activate: "Kích hoạt"
 
-  activation:
-      messages: "Tài khoản đã được kích hoạt!"
-      messages1: "Liên kết kích hoạt không hợp lệ"
-      messages2: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
+  reset:
+    email_sent: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+    email_address: "Không tìm thấy địa chỉ email"
+    messages3: "không thể để trống"
+    password_has_been_reset: "Mật khẩu đã được đặt lại."
+    account_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
+    account_activated: "Tài khoản đã được kích hoạt!"
+    invalid_activation: "Liên kết kích hoạt không hợp lệ"
+    password_reset: "Đặt lại mật khẩu"
+    forgot_password: "Quên mật khẩu"
+    submit: "Gửi đi"
+    password_reset_expired: "Đặt lại mật khẩu đã hết hạn."
+    title: "Đặt lại mật khẩu"
+    updatepassword: "Cập nhật mật khẩu"
+    home_has_been_reset: "Quay tro lai trang home"
+    To_reset_your: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+    his_link_will: "Liên kết này sẽ hết hạn sau hai giờ."
+    content: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
