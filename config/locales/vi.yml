@@ -48,3 +48,4 @@ vi:
   session:
     flash: "Kết hợp email / mật khẩu không hợp lệ"
     pagelogin: "Người dùng mới?"
+    remember12: "Hãy nhớ tôi trên máy tính này"

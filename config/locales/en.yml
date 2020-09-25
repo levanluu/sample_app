@@ -48,3 +48,4 @@ en:
   session:
       flash: "Invalid email/password combination"
       pagelogin: "New user?"
+      remember12: "Remember me on this computer"
