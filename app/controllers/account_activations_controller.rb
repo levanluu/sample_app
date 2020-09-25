@@ -4,7 +4,7 @@ class AccountActivationsController < ApplicationController
     if user && !user.activated? && user.authenticated?(:activation, params[:id])
       user.activate
       log_in user
-      flash[:success] = t("reset.account_activated")
+      flash[:success] = t("reset.messagerb")
       redirect_to user
     else
       flash[:danger] = t("reset.invalid_activation")

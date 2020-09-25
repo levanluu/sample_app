@@ -4,7 +4,9 @@ class UsersController < ApplicationController
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
 
-  def show; end
+  def show
+    @microposts = @user.microposts.paginate(page: params[:page])
+  end
 
   def edit; end
 

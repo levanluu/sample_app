@@ -72,6 +72,7 @@ vi:
 
   email:
     Please_check_your_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    messages: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     messagesrb: "Kích hoạt tài khoản"
     sendemail: " Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt"
     account: "tài khoản:"
@@ -80,7 +81,7 @@ vi:
   reset:
     email_sent: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
     email_address: "Không tìm thấy địa chỉ email"
-    messages3: "không thể để trống"
+    can_be: "không thể để trống"
     password_has_been_reset: "Mật khẩu đã được đặt lại."
     account_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
     account_activated: "Tài khoản đã được kích hoạt!"
@@ -95,3 +96,14 @@ vi:
     To_reset_your: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
     his_link_will: "Liên kết này sẽ hết hạn sau hai giờ."
     content: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
+
+  micropost:
+    micropost_created: "Đã tạo micropost!"
+    micropost_deleted: "Micropost đã bị xóa"
+    button: "Xóa"
+    confirm: "Bạn chắc chắn?"
+    maximum_file: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
+    title: "xem hồ sơ của tôi"
+    delete_error: "bai viet cua ban khong ton tai"
+    all_users: "tat ca nguoi dung"
+    error: "Xoa khong thanh cong"

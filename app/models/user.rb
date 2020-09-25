@@ -10,6 +10,7 @@ class User < ApplicationRecord
 
   has_secure_password
   validates :password, presence: true, length: {minimum: Settings.user.password}, allow_nil: true
+  has_many :microposts, dependent: :destroy
 
   def self.digest string
     cost =  if ActiveModel::SecurePassword.min_cost
@@ -33,6 +34,7 @@ class User < ApplicationRecord
     return false if remember_digest.nil?
 
     BCrypt::Password.new(remember_digest).is_password?(remember_token)
+
   end
 
   def authenticated? attribute, token
@@ -46,13 +48,10 @@ class User < ApplicationRecord
     update_columns activated: true, activated_at: DateTime.now
   end
 
-  def send_activation_email
-    UserMailer.account_activation(self).deliver_now
-  end
-
   def create_reset_digest
+
     self.reset_token = User.new_token
-    update_column reset_digest: User.digest(reset_token), reset_sent_at: DateTime.now
+    update_columns reset_digest: User.digest(reset_token), reset_sent_at: DateTime.now
   end
 
   def send_password_reset_email
@@ -65,6 +64,10 @@ class User < ApplicationRecord
 
   def forget
     update_attribute(:remember_digest, nil)
+  end
+
+  def feed
+    Micropost.by_created_at
   end
 
   private
