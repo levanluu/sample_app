@@ -68,3 +68,18 @@ vi:
     button: "Lưu Thay đổi"
     header: "Cập nhật hồ sơ của bạn"
     link: "Thay đổi"
+
+  email:
+    messages: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    messagesrb: "Kích hoạt tài khoản"
+    sendemail: " Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt"
+    account: "tài khoản:"
+    activate: "Kích hoạt"
+
+  micropost:
+    messages1: "Đã tạo micropost!"
+    messages2: "Micropost đã bị xóa"
+    button: "Xóa"
+    confirm: "Bạn chắc chắn?"
+    messages3: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
+    title: "xem hồ sơ của tôi"

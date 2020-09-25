@@ -58,7 +58,10 @@ en:
     messages: "User deleted"
     messages1: "You sure?"
     view: "delete"
+<<<<<<< HEAD
     messages3: "delete error"
+=======
+>>>>>>> chapter 12: Password reset
 
   login_in:
     messages: "Please log in."
@@ -68,3 +71,24 @@ en:
     button: "Save changes"
     header: "Update your profile"
     link: "change"
+<<<<<<< HEAD
+=======
+
+  email:
+    messages: "Please check your email to activate your account."
+    messagerb: "Account activation"
+    sendemail: " Welcome to the Sample App! Click on the link below to activate your"
+    account: "account:"
+    activate: "Activate"
+<<<<<<< HEAD
+>>>>>>> chapter 12: Password reset
+=======
+
+  micropost:
+    messages1: "Micropost created!"
+    messages2: "Micropost deleted"
+    button: "delete"
+    confirm: "You sure?"
+    messages3: "Maximum file size is 5MB. Please choose a smaller file."
+    title: "view my profile"
+>>>>>>> chapter 13 User microposts
