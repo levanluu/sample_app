@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+<<<<<<< HEAD
   before_action :logged_in_user, except: %i(new create show)
   before_action :load_user, except: %i(new index create)
   before_action :correct_user, only: %i(edit update)

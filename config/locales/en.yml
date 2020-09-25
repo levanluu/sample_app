@@ -82,3 +82,14 @@ en:
       messages: "Account activated!"
       messages1: "Invalid activation link"
       messages2: "Account not activated. Check your email for the activation link."
+
+  reset:
+    messages1: "Email sent with password reset instructions"
+    messages2: "Email address not found"
+    messages3: "can't be empty"
+    messages4: "Password has been reset."
+    messages5: "Account not activated. Check your email for the activation link."
+    messages6: "Account activated!"
+    messages7: "Invalid activation link"
+    messages8: "Password reset"
+    messages9: "Forgot password"
