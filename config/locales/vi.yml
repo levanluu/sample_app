@@ -8,19 +8,34 @@ vi:
   contact: "Liên hệ"
   login: "Đăng nhập"
   logo: "Ứng dụng đơn giản"
-
+  success: "Chào mừng bạn đến với trang web"
   static_pages:
     home:
-      title: "Welcome to the Sample App"
-      content: "This is the home page for the"
+      title: "Chào mừng bạn đến với ứng dụng mẫu"
+      content: "Đây là trang chủ của"
       logo_home: "khóa học ruby on rail cơ bản"
-      button: "Sign up now!"
+      button: "Đăng ký ngay!"
 
     help:
-      content1: "Get help on the Ruby on Rails Tutorial at the"
-      content: "To get contact on this sample app, see the"
-      book: "book"
+      content1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      content: "Để có được liên hệ trên ứng dụng mẫu này, hãy xem"
+      book: "sách"
 
     contact:
-      content: "Get contact on the Ruby on Rails Tutorial at the"
-      content1: "Rails Tutorial help page"
+      content: "Nhận liên hệ về Hướng dẫn Ruby on Rails tại"
+      content1: "Trang trợ giúp Hướng dẫn về Rails"
+      contact: "Liên hệ"
+
+  users:
+    new:
+      sign_up: Đăng ký
+      lable_name: Học Và tên
+      lable_password: Mật khẩu
+      confirmation: xác thục mật khẩu
+      create_my_account: Tạo tài khoản
+
+    success: "chào mừng đến với trang web"
+    errors: "thong bao loi"
+    messages: "Biểu mẫu chứa"
+    error: "Lỗi"
+    user: "người dùng"
