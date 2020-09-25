@@ -58,7 +58,9 @@ en:
     messages: "User deleted"
     messages1: "You sure?"
     view: "delete"
+
     messages3: "delete error"
+
 
   login_in:
     messages: "Please log in."
@@ -68,3 +70,15 @@ en:
     button: "Save changes"
     header: "Update your profile"
     link: "change"
+
+  email:
+    messages: "Please check your email to activate your account."
+    messagerb: "Account activation"
+    sendemail: " Welcome to the Sample App! Click on the link below to activate your"
+    account: "account:"
+    activate: "Activate"
+
+  activation:
+      messages: "Account activated!"
+      messages1: "Invalid activation link"
+      messages2: "Account not activated. Check your email for the activation link."

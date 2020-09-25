@@ -1,0 +1,7 @@
+<h1><%= t("logo") %></h1>
+<p>Hi <%= @user.name %>,</p>
+<p>
+  <%= t("email.sendemail")%>
+  <%= t("email.account")%>
+</p>
+<%= link_to t("email.activate"), edit_account_activation_url(id: @user.activation_token, email: @user.email) %>
