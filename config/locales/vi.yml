@@ -9,6 +9,11 @@ vi:
   login: "Đăng nhập"
   logo: "Ứng dụng đơn giản"
   success: "Chào mừng bạn đến với trang web"
+  userss: "người dùng"
+  account: "Tài khoản"
+  settings: "Cài đặt"
+  profile: "Hồ sơ"
+  logout: "đăng xuất"
   static_pages:
     home:
       title: "Chào mừng bạn đến với ứng dụng mẫu"
@@ -35,7 +40,11 @@ vi:
       create_my_account: Tạo tài khoản
 
     success: "chào mừng đến với trang web"
-    errors: "thong bao loi"
+    errors: "Thông Báo Lỗi"
     messages: "Biểu mẫu chứa"
     error: "Lỗi"
     user: "người dùng"
+
+  session:
+    flash: "Kết hợp email / mật khẩu không hợp lệ"
+    pagelogin: "Người dùng mới?"
