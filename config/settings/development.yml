@@ -1,5 +1,5 @@
 user:
   name: 50
   email: 250
-
+  size: 80
 config.time_zone: "Hanoi"

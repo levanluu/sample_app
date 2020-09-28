@@ -8,7 +8,7 @@ en:
   contact: "Contact"
   login: "Log in"
   logo: "sample app"
-
+  success: "Welcome to the sample"
   static_pages:
     home:
       title: "Welcome to the Sample App"
@@ -24,3 +24,18 @@ en:
     contact:
       content: "Get contact on the Ruby on Rails Tutorial at the"
       content1: "Rails Tutorial help page"
+      contact: "contact"
+
+  users:
+    new:
+      sign_up: sign up
+      lable_name: name
+      lable_password: password
+      confirmation: confirmation
+      create_my_account: create my account
+
+    success: "Welcome to the sample"
+    errors: "Not Found."
+    messages: "The form contains"
+    error: "error"
+    user: "user"
