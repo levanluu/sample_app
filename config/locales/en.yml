@@ -46,6 +46,25 @@ en:
     user: "user"
 
   session:
-      flash: "Invalid email/password combination"
-      pagelogin: "New user?"
-      remember12: "Remember me on this computer"
+    flash: "Invalid email/password combination"
+    pagelogin: "New user?"
+    remember12: "Remember me on this computer"
+    title: "All users"
+
+  update:
+    messages: "Profile update"
+
+  destroy:
+    messages: "User deleted"
+    messages1: "You sure?"
+    view: "delete"
+    messages3: "delete error"
+
+  login_in:
+    messages: "Please log in."
+
+  edit:
+    title: "Edit user"
+    button: "Save changes"
+    header: "Update your profile"
+    link: "change"

@@ -49,3 +49,22 @@ vi:
     flash: "Kết hợp email / mật khẩu không hợp lệ"
     pagelogin: "Người dùng mới?"
     remember12: "Hãy nhớ tôi trên máy tính này"
+    title: "Tất cả người sử dụng"
+
+  update:
+      messages: "Cập nhật hồ sơ"
+
+  destroy:
+      messages: "Người dùng đã bị xóa"
+      messages1: "Bạn chắc chắn?"
+      view: "Xóa"
+      messages3: "Xoa bi loi"
+
+  login_in:
+    messages: "Xin vui lòng đăng nhập."
+
+  edit:
+    title: "Sửa người dùng"
+    button: "Lưu Thay đổi"
+    header: "Cập nhật hồ sơ của bạn"
+    link: "Thay đổi"
