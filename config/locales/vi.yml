@@ -60,6 +60,7 @@ vi:
       view: "Xóa"
       messages3: "Xoa bi loi"
 
+
   login_in:
     messages: "Xin vui lòng đăng nhập."
 
@@ -68,3 +69,15 @@ vi:
     button: "Lưu Thay đổi"
     header: "Cập nhật hồ sơ của bạn"
     link: "Thay đổi"
+
+  email:
+    messages: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    messagesrb: "Kích hoạt tài khoản"
+    sendemail: " Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt"
+    account: "tài khoản:"
+    activate: "Kích hoạt"
+
+  activation:
+      messages: "Tài khoản đã được kích hoạt!"
+      messages1: "Liên kết kích hoạt không hợp lệ"
+      messages2: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
