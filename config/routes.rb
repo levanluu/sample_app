@@ -11,14 +11,15 @@ Rails.application.routes.draw do
   post "/login",  to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
   post "/edit", to: "users#edit"
+
+  resources :users do
+    member do
+      get :following, :followers
+    end
+  end
   resources :users
-<<<<<<< HEAD
-=======
   resources :account_activations, only: :edit
   resources :password_resets, only: [:new, :create, :edit, :update]
-<<<<<<< HEAD
->>>>>>> chapter 12: Password reset
-=======
   resources :microposts, only: [:create, :destroy]
->>>>>>> chapter 13 User microposts
+  resources :relationships, only: [:create, :destroy]
 end

@@ -3,8 +3,5 @@ user:
   email: 250
   size: 80
   password: 3
-<<<<<<< HEAD
   page: 10
-=======
->>>>>>> chapter 12: Password reset
 config.time_zone: "Hanoi"
