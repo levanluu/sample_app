@@ -4,4 +4,5 @@ user:
   size: 80
   password: 3
   page: 10
+  time: 2
 config.time_zone: "Hanoi"

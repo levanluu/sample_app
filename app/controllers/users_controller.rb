@@ -16,7 +16,7 @@ class UsersController < ApplicationController
     @user = User.new user_params
     if @user.save
       @user.send_activation_email
-      flash[:info] = t "email.messages"
+      flash[:info] = t "email.Please_check_your_email"
       redirect_to root_url
     else
       render :new
@@ -25,7 +25,7 @@ class UsersController < ApplicationController
 
   def update
     if @user.update(user_params)
-      flash[:success] = t "update.messages"
+      flash[:success] = t "update.Profile_update"
       redirect_to @user
     else
       render :edit
@@ -33,14 +33,15 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.paginate(page: params[:page], per_page: Settings.user.page)
+    @users = User.paginate(page: params[:page],
+      per_page: Settings.user.page)
   end
 
   def destroy
     if @user.destroy
-      flash[:success] = t "destroy.messages"
+      flash[:success] = t "destroy.user_deleted"
     else
-      flash[:success] = t "destroy.messages3"
+      flash[:success] = t "destroy.delete_error"
     end
     redirect_to users_url
   end
@@ -55,7 +56,7 @@ class UsersController < ApplicationController
     return if logged_in?
 
     store_location
-    flash[:danger] = t "login_in.messages"
+    flash[:danger] = t "login_in.please_log_in"
     redirect_to login_url
   end
 
