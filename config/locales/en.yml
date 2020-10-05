@@ -81,7 +81,7 @@ en:
   reset:
     email_sent: "Email sent with password reset instructions"
     email_address: "Email address not found"
-    messages3: "can't be empty"
+    can_be: "can't be empty"
     password_has_been_reset: "Password has been reset."
     account_not_activated: "Account not activated. Check your email for the activation link."
     account_activated: "Account activated!"
@@ -96,3 +96,14 @@ en:
     To_reset_your: "To reset your password click the link below:"
     his_link_will: "This link will expire in two hours."
     content: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+
+  micropost:
+    micropost_created: "Micropost created!"
+    micropost_deleted: "Micropost deleted"
+    button: "delete"
+    confirm: "You sure?"
+    maximum_file : "Maximum file size is 5MB. Please choose a smaller file."
+    title: "view my profile"
+    delete_error: "post not found"
+    all_users: "All users"
+    error: "delete don't success"

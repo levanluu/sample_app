@@ -4,7 +4,7 @@ class PasswordResetsController < ApplicationController
   def new; end
 
   def create
-    if @user = User.find_by(email: params[:password_reset][:email].downcase)
+    if @user = User.find_by email: params[:password_reset][:email].downcase
       @user.create_reset_digest
       @user.send_password_reset_email
       flash[:info] = t("reset.email_sent")
@@ -17,7 +17,7 @@ class PasswordResetsController < ApplicationController
 
   def update
     if params[:user][:password].empty?
-      @user.errors.add(:password, t("reset.email_address"))
+      @user.errors.add(:password, t("reset.can_be")
       render :edit
     elsif @user.update(user_params)
       log_in @user
@@ -41,7 +41,7 @@ class PasswordResetsController < ApplicationController
   end
 
   def valid_user
-    return if activated? && @user.authenticated?(:reset, params[:id])
+    return if (@user.activated? && @user.authenticated?(:reset, params[:id]))
     flash[:danger] = t("reset.home_has_been_reset")
     redirect_to root_url
   end
@@ -57,4 +57,5 @@ class PasswordResetsController < ApplicationController
     redirect_to new_password_reset_url
     end
   end
+
 end
